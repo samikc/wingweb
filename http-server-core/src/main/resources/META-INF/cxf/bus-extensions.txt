@@ -1,0 +1,3 @@
+org.wingsource.wingweb.http.cxf.jaxrs.NettyHttpTransportFactory::true:true
+org.wingsource.wingweb.http.cxf.jaxrs.NettyHttpDestinationFactory::true:true
+org.wingsource.wingweb.http.cxf.jaxrs.NettyHttpServerEngineFactory::true:true
