@@ -2,6 +2,7 @@ package org.wingsource.wingweb.http.core;
 
 import org.apache.cxf.jaxrs.JAXRSServerFactoryBean;
 import org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider;
+import org.codehaus.jackson.jaxrs.JacksonJsonProvider;
 import org.wingsource.wingweb.http.services.VersionService;
 
 /**
@@ -24,6 +25,7 @@ public class ServerStartUp {
     public static void initServer() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
         ServerContext context = ServerContext.getSingleInstance();
         JAXRSServerFactoryBean sf = context.getSf();
+        sf.setProvider(new JacksonJsonProvider());
         for (Service service : context.getServiceRegistry().getService()) {
             String className = service.getName();
             Class clazz = context.getClass().getClassLoader().loadClass(className);

@@ -10,7 +10,7 @@ import javax.ws.rs.Produces;
  */
 
 @Path("/version/")
-@Produces("text/xml")
+@Produces("application/json")
 public class VersionService {
     @GET
     @Path("/v/")
