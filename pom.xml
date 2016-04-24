@@ -7,7 +7,7 @@
     <groupId>org.wingsource</groupId>
     <artifactId>wingweb</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
     <modules>
         <module>http-server-core</module>
         <module>sample</module>
