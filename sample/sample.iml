@@ -11,7 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="http-server-core" />
+    <orderEntry type="library" name="Maven: com.wingsource:http-server-core:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.0.CR6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.1.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.cxf:cxf-core:3.1.6" level="project" />
